@@ -7,9 +7,9 @@ import java.util.List;
 
 public class Frosty {
 
-    private static final String DBHost = "192.168.1.100";
-    private static final String DBUser = "frosty-bot";
-    private static final String DBPass = "LeJuqANIlerogIs7yONusIgAHeTibi";
+    private static final String DBHost = "213.165.86.98";
+    private static final String DBUser = "frosty_bot";
+    private static final String DBPass = "84Fuc6deKeGaY4nok6VATo6ep2cER4";
     private static final String DBName = "frosty";
 
 
