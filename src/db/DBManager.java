@@ -7,8 +7,7 @@ public class DBManager {
 
     protected DBManager(String username, String password, String databaseName, String host, int port) throws SQLException {
         this.con = DriverManager.getConnection("jdbc:mysql://" + host + ':' + port + '/' + databaseName +
-                "?useUnicode=true&characterEncoding=utf-8&characterSetResults=utf8&user=" +
-                username + "&password=" + password);
+                "?useUnicode=true&characterEncoding=utf-8&characterSetResults=utf8", username, password);
     }
 
     private static DBManager obj = null;
